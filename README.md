@@ -12,8 +12,8 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 1. Clone o repositório para a sua máquina local:
 
     ```bash
-    git clone https://github.com/seu-usuario/seu-projeto.git
-    cd seu-projeto
+    git clone https://github.com/ViniciusLisboa07/basic-user-api
+    cd basic-user-api
     ```
 2. Instale o projeto atraves do docker-compose:
 
