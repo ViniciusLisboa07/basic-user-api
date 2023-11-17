@@ -1,24 +1,38 @@
-# README
+# Api de User
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Pré-requisitos
+Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
+- [Ruby](https://www.ruby-lang.org/)
+- [Ruby on Rails](https://rubyonrails.org/)
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
 
-Things you may want to cover:
+## Configuração do Projeto
 
-* Ruby version
+1. Clone o repositório para a sua máquina local:
 
-* System dependencies
+    ```bash
+    git clone https://github.com/seu-usuario/seu-projeto.git
+    cd seu-projeto
+    ```
+2. Instale o projeto atraves do docker-compose:
 
-* Configuration
+    ```bash
+    docker-compose up --build
+    ```
 
-* Database creation
+3. Configure o banco de dados:
 
-* Database initialization
+    - Acesse o bash
 
-* How to run the test suite
+    ```bash
+      	sudo docker-compose exec web /bin/bash
+    ```
 
-* Services (job queues, cache servers, search engines, etc.)
+    ```bash
+    rails db:create
+    rails db:migrate
+    ```
 
-* Deployment instructions
+  O aplicativo estará disponível em `http://localhost:3000`.
 
-* ...
