@@ -1,13 +1,13 @@
-# Api de User
+# Api de User :bowtie:
 
-## Pré-requisitos
+## Pré-requisitos :fleur_de_lis:
 Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 - [Ruby](https://www.ruby-lang.org/)
 - [Ruby on Rails](https://rubyonrails.org/)
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/)
 
-## Configuração do Projeto
+## Configuração do Projeto :fleur_de_lis:
 
 1. Clone o repositório para a sua máquina local:
 
@@ -23,10 +23,10 @@ Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
 3. Configure o banco de dados:
 
-    - Acesse o bash
+    Acesse o bash
 
     ```bash
-      	sudo docker-compose exec web /bin/bash
+    sudo docker-compose exec web /bin/bash
     ```
 
     ```bash
