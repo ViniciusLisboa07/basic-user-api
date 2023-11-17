@@ -43,6 +43,13 @@ A API de usuário possui as seguintes rotas:
 - `GET /users`: Retorna todos os usuários cadastrados.
 - `GET /users/:id`: Retorna um usuário específico com base no ID.
 - `POST /users`: Cria um novo usuário.
+  ```
+    {
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "password": "secretpassword"
+    }
+  ```
 - `PUT /users/:id`: Atualiza um usuário existente com base no ID.
 - `DELETE /users/:id`: Exclui um usuário com base no ID.
 
